@@ -1,11 +1,12 @@
 import NavigationBar from '../components/NavigationBar';
+import Hero from '../components/Hero';
 const Home = () =>
 {
     return(
         <div>
             <NavigationBar/>
-            <h1>Home</h1>
+            <Hero/>
         </div>
-    )
+    );
 }
 export default Home;
