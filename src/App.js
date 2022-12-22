@@ -8,7 +8,8 @@ import Home from './pages/Home';
 import AdminHome from './pages/admin/Home';
 import Test from './pages/Test';
 import AdminDashboard from './pages/admin/Dashboard';
-import AdminUsers from './pages/admin/AdminUsers';
+import AdminUsers from './pages/admin/Users';
+import AdminTuitions from './pages/admin/Tuitions';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/tuitions" element={<AdminTuitions/>} />
         <Route path="/admin/users" element={<AdminUsers/>} />
         <Route path="/test" element={<Test />} />
         <Route path="/abort" element={"404 NOT FOUND"} />

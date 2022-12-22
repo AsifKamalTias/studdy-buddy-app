@@ -29,7 +29,7 @@ const Dashboard = () =>
 				<div className="container d-flex justify-content-center flex-column">
 					<a href="/" className="btn btn-outline-success mb-3">Manage User</a>
 					<a href="/" className="btn btn-outline-success mb-3">Manage Tutor</a>
-					<a href="/" className="btn btn-outline-success mb-3">Manage Tuition Posts</a>
+					<a href="/admin/tuitions" className="btn btn-outline-success mb-3">Manage Tuition Posts</a>
 					<a href="/" className="btn btn-outline-success mb-3">Manage Forum</a>
 					<a href="/" className="btn btn-outline-success mb-3">Manage Blogs</a>
 					<a href="/" className="btn btn-outline-success mb-3">View Feedbacks</a>
